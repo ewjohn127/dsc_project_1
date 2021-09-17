@@ -173,7 +173,7 @@ James Wan has directed, produced or written half of the most successful horror/m
 To choose a studio we want to look at the top performing studios that have been involved with horror movies. The below table shows the top 8 studios sorted by total gross income.
 
 <div class='center'>
-<img src='Plots/Top8Studios.PNG' style='width:600px;'/>
+<img src='Plots/Top8Studios.PNG' style='width:800px;'/>
 </div>
 
 **BV** is the top grossing studio and supports Disney. The plot below shows a clear drop off in terms of total gross income after Warner Brothers.
