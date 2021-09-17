@@ -114,7 +114,7 @@ Profitability is the key feature when looking at a business' financial health. O
 Profitability:
 Define Profitability as Percent Gross Margin (GM%).
 
-##### GM% = (I - B)/ I
+#### GM% = (I - B)/ I
 
 Where:
 
@@ -139,15 +139,11 @@ From the IMDB and Budget datasets, two final datasets were created:
 #####  Importing the Genre Dataset Grouped By Genre
 Here we are looking for the top 5 entries in the Genre Dataset grouped by genre. We then sort by the mean profitability of each genre. 
 
-# PUT IN MeanProfbyGenreTop5.png
-
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/MeanProfbyGenreTop5.PNG' style='width:600px;'/>
 </div>
 
 Below shows the mean profitabilities of each genre as a bar graph.
-
-# PUT IN MeanProfbyGenre.png
 
 <div class='center'>
 <img src='Plots/MeanProfbyGenre.png' style='width:800px;'/>
@@ -158,10 +154,8 @@ Not only is Horror/Mystery/Thriller at the top for profit, it also has by far th
 ### The Horror/Mystery/Thriller Genre has the Lowest Production Budget and Highest Profitability
 The next two graphs shows Profitability v Production Budget by movie. The movies within the top two genres for profitability (as discovered above) are highlighted.
 
-# PUT IN Scatter.png
-
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/Scatter.png' style='width:800px;'/>
 </div>
 
 The left graph shows horror/mystery/thriller movies clustered to the top left. This indicates high profitability and some of the lowest movie budgets across all genres. The next most profitable genre is shown in the right graph. This shows a much larger spread on production budget.
@@ -169,27 +163,23 @@ The left graph shows horror/mystery/thriller movies clustered to the top left. T
 ##### Horror/Mystery/Thriller Genre Director Performance - For Chosing Director
 The table below shows the top 4 grossing Horror/Mystery/Thriller movies with director information.
 
-# PUT IN Top4GrossHorror.png
-
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/Top4GrossHorror.PNG' style='width:600px;'/>
 </div>
 
 James Wan has directed, produced or written half of the most successful horror/mystery/thriller movies of the last two decades. He was also the main director for the top grossing horror/mystery/thriller of all time - The Conjuring. He would be our top recommendation.
 
 #### Top Performing Studio Data For Choosing Studio To Partner with
-To choose a studio we want to look at the top performing studios that have been involved with horror movies. The below table shows the top 10 studios sorted by total gross income.
+To choose a studio we want to look at the top performing studios that have been involved with horror movies. The below table shows the top 8 studios sorted by total gross income.
 
-# PUT IN PNG FILE OF TABLE SHOWING TOP 10 STUDIOS BY TOTAL GROSS INCOME
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/Top8Studios.PNG' style='width:600px;'/>
 </div>
 
 **BV** is the top grossing studio and supports Disney. The plot below shows a clear drop off in terms of total gross income after Warner Brothers.
 
-# PUT IN PNG FILE OF TEDS CHART WITH THE STUDIOS AND AVERAGE TOTAL MEDIAN
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/TopGrossing.png' style='width:800px;'/>
 </div>
 
 Both Paramount and Warner Bros work with Horror/mystery/thrillers. Paramount has released movies such as Paranormal Acitvity series while Warner Bros is responsible for The Conjuring universe. Either studio would be a good choice to partner with.
@@ -226,10 +216,10 @@ Drama,Thriller                30
 Comedy,Drama                  29
 Adventure,Drama,Fantasy       28
 
-# PNG FILE OF OSCARS NOMINATIONS PLOT
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/OscarNoms.png' style='width:800px;'/>
 </div>
+
 ##### Oscar Wins
 We can also analyze the number of wins by genre since 2010.
 
@@ -244,9 +234,8 @@ Adventure,Drama,Fantasy        8
 Drama,Sci-Fi,Thriller          7
 Adventure,Drama,Family         6
 
-# PNG FILE OF OSCARS Wins PLOT
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='Plots/OscarWinss.png' style='width:800px;'/>
 </div>
 
 # Conlusions
