@@ -15,7 +15,6 @@ Phase1_Project.ipynb
 
 data
 - Data used for analyses in the Phase1_Project.ipynb Jupyter Notebook. Contains:
-	- .DS_Store
 	- data_readme.md
 	- idea1_main_genre.csv
 	- idea1_main_genre_grouped.csv
@@ -71,6 +70,10 @@ It's important to note that these genre labels with multiple are not grouping to
 
 ### Genre Specificity:
 Gone are the days of single genre movies. It is impossible to group movies by a single genre name (i.e Action, Animation, Comedy, Drama, Romance). There is a difference between The Notebook and 50 First Dates. One is a Romantic/Drama and the other is a Romantic/Comedy. These movies are created differently, marketed differently and viewed by different audiences.
+
+<div class='center'>
+<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>  <img src='https://www.kindpng.com/picc/m/10-103391_is-not-equal-to-mathematical-symbol-not-equal.png' style='width:50px;'/> <img src='https://upload.wikimedia.org/wikipedia/en/9/9d/50FirstDates.jpg', style='width:200px;'/>
+</div>
 
 
 ### Viewing Production Budget as A Source of Risk:
@@ -128,15 +131,23 @@ The profitability feature was created using the total gross income and productio
 # Data Analysis
 From the IMDB and Budget datasets, two final datasets were created:
 
-The Genre Dataset - compares genre, profitability, budget and director - each row is a movie
-The Studio Dataset - compares studio and total gross income - each row is a movie
-Profitability and Production Budget By Genre
+ - The Genre Dataset : compares genre, profitability, budget and director - each row is a movie
+ - The Studio Dataset : compares studio and total gross income - each row is a movie
+ 
+#### Profitability and Production Budget By Genre
 
-#### Importing the Genre Dataset Grouped By Genre
+#####  Importing the Genre Dataset Grouped By Genre
 Here we are looking for the top 5 entries in the Genre Dataset grouped by genre. We then sort by the mean profitability of each genre. 
+
+# PUT IN MeanProfbyGenreTop5.png
+
+<div class='center'>
+<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+</div>
+
 Below shows the mean profitabilities of each genre as a bar graph.
 
-# PUT IN PLOT OF MEAN PROFITABILITY BY GENRE
+# PUT IN MeanProfbyGenre.png
 
 <div class='center'>
 <img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
@@ -144,11 +155,10 @@ Below shows the mean profitabilities of each genre as a bar graph.
 
 Not only is Horror/Mystery/Thriller at the top for profit, it also has by far the lowest budget costs compared to the other genres in the top 7 most profitable. Adventure/Animation/Comedy comes in second for profitability but is second highest for production budget.
 
-The Horror/Mystery/Thriller Genre has the Lowest Production Budget and Highest Profitability
+### The Horror/Mystery/Thriller Genre has the Lowest Production Budget and Highest Profitability
 The next two graphs shows Profitability v Production Budget by movie. The movies within the top two genres for profitability (as discovered above) are highlighted.
 
-# Plotting
-# PUT IN PLOT OF MEAN PROFITABILITY BY GENRE
+# PUT IN Scatter.png
 
 <div class='center'>
 <img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
@@ -159,20 +169,22 @@ The left graph shows horror/mystery/thriller movies clustered to the top left. T
 ##### Horror/Mystery/Thriller Genre Director Performance - For Chosing Director
 The table below shows the top 4 grossing Horror/Mystery/Thriller movies with director information.
 
-# PUT IN PNG FILE OF TABLE SHOWING TOP 4 GROSSING HORROR/MYSTERY/THRILLER
+# PUT IN Top4GrossHorror.png
+
 <div class='center'>
 <img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
 </div>
 
 James Wan has directed, produced or written half of the most successful horror/mystery/thriller movies of the last two decades. He was also the main director for the top grossing horror/mystery/thriller of all time - The Conjuring. He would be our top recommendation.
 
-Top Performing Studio Data For Choosing Studio To Partner with
+#### Top Performing Studio Data For Choosing Studio To Partner with
 To choose a studio we want to look at the top performing studios that have been involved with horror movies. The below table shows the top 10 studios sorted by total gross income.
 
 # PUT IN PNG FILE OF TABLE SHOWING TOP 10 STUDIOS BY TOTAL GROSS INCOME
 <div class='center'>
 <img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
 </div>
+
 **BV** is the top grossing studio and supports Disney. The plot below shows a clear drop off in terms of total gross income after Warner Brothers.
 
 # PUT IN PNG FILE OF TEDS CHART WITH THE STUDIOS AND AVERAGE TOTAL MEDIAN
@@ -232,7 +244,7 @@ Adventure,Drama,Fantasy        8
 Drama,Sci-Fi,Thriller          7
 Adventure,Drama,Family         6
 
-# PNG FILE OF OSCARS NOMINATIONS PLOT
+# PNG FILE OF OSCARS Wins PLOT
 <div class='center'>
 <img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
 </div>
