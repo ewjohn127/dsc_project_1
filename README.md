@@ -205,16 +205,16 @@ We'll be analyzing the oscar awards by genre going from 2010 onward. We will wan
 ##### Count up the genres and plot
 Now we'll analyze how many total oscars nominations per genre there were since 2010 and plot them. Looking at the top 10 genres based on their Nominations over the past 10 years
 
-Biography,Drama,History       85
-Drama                         69
-Drama,Romance                 51
-Action,Adventure,Sci-Fi       39
-Adventure,Animation,Comedy    36
-Biography,Drama               32
-Biography,Comedy,Drama        31
-Drama,Thriller                30
-Comedy,Drama                  29
-Adventure,Drama,Fantasy       28
+- Biography,Drama,History       85
+- Drama                         69
+- Drama,Romance                 51
+- Action,Adventure,Sci-Fi       39
+- Adventure,Animation,Comedy    36
+- Biography,Drama               32
+- Biography,Comedy,Drama        31
+- Drama,Thriller                30
+- Comedy,Drama                  29
+- Adventure,Drama,Fantasy       28
 
 <div class='center'>
 <img src='Plots/OscarNoms.png' style='width:800px;'/>
@@ -223,16 +223,16 @@ Adventure,Drama,Fantasy       28
 ##### Oscar Wins
 We can also analyze the number of wins by genre since 2010.
 
-Biography,Drama,History       17
-Drama                         17
-Action,Adventure,Sci-Fi       13
-Adventure,Animation,Comedy    11
-Drama,Romance                  9
-Drama,Thriller                 9
-Biography,Drama                9
-Adventure,Drama,Fantasy        8
-Drama,Sci-Fi,Thriller          7
-Adventure,Drama,Family         6
+- Biography,Drama,History       17
+- Drama                         17
+- Action,Adventure,Sci-Fi       13
+- Adventure,Animation,Comedy    11
+- Drama,Romance                  9
+- Drama,Thriller                 9
+- Biography,Drama                9
+- Adventure,Drama,Fantasy        8
+- Drama,Sci-Fi,Thriller          7
+- Adventure,Drama,Family         6
 
 <div class='center'>
 <img src='Plots/OscarWinss.png' style='width:800px;'/>
