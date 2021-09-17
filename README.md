@@ -13,6 +13,12 @@ Phase1_Project.ipynb
    - Python Packages used: matplotlib, Ipython
    - Imports used: pyplot, display, pandas, numpy, csv
 
+Phase1_Project.pdf
+- PDF of the Jupyter Notebook
+
+Phase1Group.pptx
+- Powerpoint Presentation for this project
+
 data
 - Data used for analyses in the Phase1_Project.ipynb Jupyter Notebook. Contains:
 	- data_readme.md
@@ -25,6 +31,9 @@ data
 	- the_oscar_award.csv
 	- title.basics.csv
 	- top_grossing_studios.csv
+    
+Plots
+- Folder containing resulting plots and tables in PNG format
 
 Appendix
 - Contains supplementary files and information
