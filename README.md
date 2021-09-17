@@ -150,7 +150,7 @@ Below shows the mean profitabilities of each genre as a bar graph.
 # PUT IN MeanProfbyGenre.png
 
 <div class='center'>
-<img src='https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg' style='width:200px;'/>
+<img src='plots/MeanProfbyGenre.png' style='width:200px;'/>
 </div>
 
 Not only is Horror/Mystery/Thriller at the top for profit, it also has by far the lowest budget costs compared to the other genres in the top 7 most profitable. Adventure/Animation/Comedy comes in second for profitability but is second highest for production budget.
